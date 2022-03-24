@@ -10,7 +10,7 @@ import React, {Component} from 'react';
 import {Router, Scene} from 'react-native-router-flux';
 import apolloClient from './apollo';
 import {ApolloProvider} from 'react-apollo';
-import ListUser from './ListUser';
+import ListUser from './src/ListUser';
 import Login from './src/login';
 import CreateUser from './src/createUser';
 
